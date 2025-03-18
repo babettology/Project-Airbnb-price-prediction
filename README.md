@@ -11,7 +11,7 @@ SUMMARY
 
 # Research Question
 
-*What factors impact and the most significantly Airbnb listings prices in major European cities ?*
+*What factors impact the most significantly Airbnb listings prices in major European cities ?*
 
 5 criteria 
 
@@ -42,23 +42,26 @@ The data set does not countain any NAs. Check for duplicate or incoherent data e
 We summarise the dataset using basic statistical measures. Examine the distribution of the target variable (price). Explore the distributions of other relevant variables.
 
 **Table 1** : Dataset Descriptive Summary
+![Stata%20Describe%20Airbnb](https://github.com/user-attachments/assets/6acbe910-a9dc-446d-9667-f4048f95bd7c)
 
-![Stata Describe Airbnb.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/49c582f6-5482-4e43-92e8-30092eb02a56/Stata_Describe_Airbnb.jpg)
 
 **Table 2** : Descriptive table of all the relevant variables and their specificities.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/5dd39b55-7235-4f50-9992-64c470e610d4/image.png)
+<img width="537" alt="image-2" src="https://github.com/user-attachments/assets/41c4cd49-4ebc-440b-ba61-d1a32c4897c7" />
+
+
+
 
 **Table 3 :** Variables Frequency 
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/9323e3dd-4733-4ba3-a096-3b3fbc7141f7/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/b0e481b0-a241-4966-aa39-4ce8852258d1/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/75975fb9-ce0d-4f60-b1fc-0a1d8b5cc274/image.png)
+<aside>
+<img width="648" alt="image-3" src="https://github.com/user-attachments/assets/4f69d9c4-65dc-45b6-a39d-933386c40b4b" />
+<img width="639" alt="image-4" src="https://github.com/user-attachments/assets/5dab3f17-0c1d-4d96-9794-4fe71ec6cfec" />
+<img width="639" alt="image-5" src="https://github.com/user-attachments/assets/024206a1-a550-42d3-af08-a6a5e2aa5fa2" />
 
 <aside>
-🏘️
+
+
+
 
 Let’s perform a first regression
 
@@ -68,48 +71,55 @@ Let’s perform a first regression
 
 *price = β0 + β1×citycenterkm + β2×metrodistancekm + β3×cleanlinessrating + β4×guestsatisfaction + β5×superh + β6×multiplerooms + β7×private + β8×attraction + β9×restaurant*
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/6d291d9c-6eda-4a38-b751-1c2909611e69/image.png)
+<img width="1168" alt="image-6" src="https://github.com/user-attachments/assets/639bfdd2-f146-44bc-b50c-f5f1dbe0a1af" />
+
 
 <aside>
-➡️
+
 
 Independent Price Variable 
 
 </aside>
 
 **Figure 1** : Kernel Density Estimate with price as a continuous variable
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/8dab22ef-3fad-47fa-a746-7cd14db40d57/image.png)
+<img width="675" alt="image-7" src="https://github.com/user-attachments/assets/e700c3f5-b1d7-43a8-bb86-f22adac85340" />
 
 **Figure 2** : Kernel Density Estimate with price as a logarithmic variable
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/0408a414-9576-441d-aaae-37c7c9f4b6b9/image.png)
+<img width="671" alt="image-8" src="https://github.com/user-attachments/assets/a80cf1ab-3f2b-484b-a07a-8eb296eeff3d" />
 
 <aside>
-➡️
+
 
 Distribution of Price Indicators
+
 
 </aside>
 
 **Figure 3** : Distribution of Price 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/8a0a2236-cf75-44ec-9d71-5d097ee3db88/image.png)
+<img width="1056" alt="image-9" src="https://github.com/user-attachments/assets/8cc9a440-a506-4e7f-b93b-1b0040c5f513" />
+
+
 
 <aside>
-➡️
+
 
 Distribution of Location Predictors 
 
 </aside>
 
-**Figure 4** : City Frequency 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/63a28cc8-d5d7-4771-a11c-df3e7c24ccb0/image.png)
+
+**Figure 4** : City Frequency 
+<img width="575" alt="image-10" src="https://github.com/user-attachments/assets/a2cc20a0-a4a6-4307-9bc1-c68b799de358" />
+
+</aside>
+
+
 
 **Figure 5**: Location Indicators 
+<img width="789" alt="image-11" src="https://github.com/user-attachments/assets/e4ec9c8b-0d41-44af-8de2-e333bd08a312" />
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/7b4ecf54-ee7c-4b36-a339-3413ac8a6d7c/image.png)
 
 <aside>
 ➡️
@@ -127,18 +137,20 @@ Distribution of Guest Ratings
 
 **Figure 6** : Boxplots of cleanliness and satisfaction 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/6b8850a3-a236-4e22-8f72-fed192399b22/image.png)
+<img width="984" alt="image-12" src="https://github.com/user-attachments/assets/d6784272-d1b2-4053-99e7-474a373ad6c8" />
 
 <aside>
-➡️
+
+  ➡️
 
 Distribution of Proximity Indicators 
 
 </aside>
 
 **Figure 7 :** Proximity Boxplots 
+<img width="1049" alt="image-13" src="https://github.com/user-attachments/assets/bc624d10-d721-4a17-b3b0-92a74d51d809" />
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/fc5f5d70-11bb-4937-9306-bad8defb6b0b/image.png)
+
 
 # Model Building  and Analysis
 
@@ -148,7 +160,7 @@ With out clean data we can now perform a regression with the price variable and 
 
 **Table 7**  : Regression Models Fit
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/73e6b891-b165-4648-b4aa-31dc7a197c9a/image.png)
+<img width="952" alt="image-14" src="https://github.com/user-attachments/assets/2f27e6ec-10b4-4243-b8c4-eefb24fd2bb4" />
 
 <aside>
 ➡️
@@ -160,24 +172,22 @@ Checking that assumptions are met.
 **Residuals and Multicollinearity**
 
 **Figure 8** : Histogram of residuals for logarithmic price model
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/f4fed1b5-f372-44d6-a4e5-53a33787f651/image.png)
+<img width="860" alt="image-15" src="https://github.com/user-attachments/assets/b27cd2e2-9eb1-4aa7-aba6-3139063f0f23" />
 
 **Table 8** : VIF results  for logarithmic price model
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/9aae32df-6838-4cd1-a7b4-cde3dd6f7bce/image.png)
+<img width="411" alt="image-16" src="https://github.com/user-attachments/assets/93e7eb3d-d855-47a5-ae61-958343164690" />
 
 **Collinearity**
 
 **Table 9** : Correlation Matrix
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/23478fe5-5124-406a-a2f3-c95698e7f10a/image.png)
+<img width="1103" alt="image-17" src="https://github.com/user-attachments/assets/20bfc35c-8b62-434b-ab15-b5cf70ef5e10" />
 
 **Heteroscedasticity**
 
 **Figure 9** : Scatterplot comparing fitted and residual values  for logarithmic price model
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/b81be8e8-e27c-482a-9081-0fd355d6b94b/image.png)
+<img width="952" alt="image-18" src="https://github.com/user-attachments/assets/f92bfbb2-5230-41bc-bb43-8f4f5633b0ca" />
+
 
 <aside>
 ➡️
@@ -188,43 +198,37 @@ Final Regression Summary
 
 **Table 10**: Regression Summary for Logaritmic Price
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/e25bb9c5-482a-40d5-8393-0abe831cbce3/image.png)
+<img width="1070" alt="image-19" src="https://github.com/user-attachments/assets/b6625af3-83f2-498d-9177-a997de3c8f3c" />
+
 
 **Table 11** : Models performance for each european cities
+<img width="1060" alt="image-20" src="https://github.com/user-attachments/assets/6b2f68cd-3247-4fa8-97ba-6930c8052b07" />
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/7753e73b-7f8e-4d53-9c85-f8cb17272fa1/image.png)
 
 **Table 12** : Regression Summary for top three performing models
+<img width="567" alt="image-21" src="https://github.com/user-attachments/assets/b2c23a9b-af2f-4c3f-9f98-0e54a2565676" />
+<img width="567" alt="image-22" src="https://github.com/user-attachments/assets/6779b0eb-3239-4bfd-b547-188ff30f1438" />
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/4bf83018-afc8-4813-b4cf-6079d68ded2e/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/95c6ea03-156e-4aa9-9f0a-8251bf708382/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/ac18230a-2815-4387-8881-3023453ffdec/image.png)
 
 # Conclusion and Recommendations
 
-<aside>
+</aside>
 💸
 
 Most Expensive City by average price in euro
+<img width="566" alt="image-23" src="https://github.com/user-attachments/assets/f80e7a25-3462-4224-95af-83b429303f4a" />
 
 </aside>
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/e95fb6fe-920e-431d-88d0-2add91f4744e/image.png)
-
-<aside>
 💸
 
 Most Affordable City by average price in euro 
 
 </aside>
+<img width="603" alt="image-24" src="https://github.com/user-attachments/assets/abb587b9-b950-457e-8f30-3f931edd209e" />
+<img width="512" alt="image-25" src="https://github.com/user-attachments/assets/8ed72e76-86d4-4658-b844-c1a3d2543574" />
+<img width="507" alt="image-26" src="https://github.com/user-attachments/assets/6b287620-fc33-41ca-b1cd-28a77aa8fa32" />
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/4f7a9d21-bebd-418e-8323-7a17bc0ba5fe/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/0da7cf68-c9e3-47fc-812e-b1f158226a49/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/0c113e48-374b-4434-8bb6-c6e76be2b341/image.png)
 
 ### Answering the research question according to our findings
 
@@ -236,12 +240,13 @@ Most Affordable City by average price in euro
 Most significant across all cities 
 
 </aside>
+<img width="1314" alt="image" src="https://github.com/user-attachments/assets/7eaf4252-d76d-4ca5-b68e-48d31022ce6a" />
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/49b14f3c-4350-4e32-8ef8-bb70d1bf603e/7fd535ec-ec86-4481-b132-57ac5e518af8/image.png)
 
 <aside>
 📢
 
 Most significants factors in Rome, Barcelona and Lisbon 
+<img width="1292" alt="image-27" src="https://github.com/user-attachments/assets/c715fe7d-2df9-4f6a-ae91-39aefc5bf6b8" />
 
 </aside>
