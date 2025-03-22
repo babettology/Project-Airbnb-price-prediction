@@ -42,10 +42,11 @@ The data set does not countain any NAs. Check for duplicate or incoherent data e
 We summarise the dataset using basic statistical measures. Examine the distribution of the target variable (price). Explore the distributions of other relevant variables.
 
 **Table 1** : Dataset Descriptive Summary
+
 ![Stata%20Describe%20Airbnb](https://github.com/user-attachments/assets/6acbe910-a9dc-446d-9667-f4048f95bd7c)
 
 
-**Table 2** : Descriptive table of all the relevant variables and their specificities.
+**Table 2** : Descriptive table of relevant variables
 
 <img width="537" alt="image-2" src="https://github.com/user-attachments/assets/41c4cd49-4ebc-440b-ba61-d1a32c4897c7" />
 
@@ -53,12 +54,12 @@ We summarise the dataset using basic statistical measures. Examine the distribut
 
 
 **Table 3 :** Variables Frequency 
-<aside>
+
 <img width="648" alt="image-3" src="https://github.com/user-attachments/assets/4f69d9c4-65dc-45b6-a39d-933386c40b4b" />
 <img width="639" alt="image-4" src="https://github.com/user-attachments/assets/5dab3f17-0c1d-4d96-9794-4fe71ec6cfec" />
 <img width="639" alt="image-5" src="https://github.com/user-attachments/assets/024206a1-a550-42d3-af08-a6a5e2aa5fa2" />
 
-<aside>
+
 
 
 
@@ -111,17 +112,19 @@ Distribution of Location Predictors
 
 
 **Figure 4** : City Frequency 
+
 <img width="575" alt="image-10" src="https://github.com/user-attachments/assets/a2cc20a0-a4a6-4307-9bc1-c68b799de358" />
 
-</aside>
+
 
 
 
 **Figure 5**: Location Indicators 
+
 <img width="789" alt="image-11" src="https://github.com/user-attachments/assets/e4ec9c8b-0d41-44af-8de2-e333bd08a312" />
 
 
-<aside>
+
 ➡️
 
 Distribution of Guest Ratings 
@@ -156,25 +159,23 @@ Distribution of Proximity Indicators
 
 With out clean data we can now perform a regression with the price variable and all predictors.
 
-                **Price Performance            VS        Logarithmic Price Performance**
-
 **Table 7**  : Regression Models Fit
 
 <img width="952" alt="image-14" src="https://github.com/user-attachments/assets/2f27e6ec-10b4-4243-b8c4-eefb24fd2bb4" />
 
-<aside>
-➡️
+
 
 Checking that assumptions are met. 
 
-</aside>
 
 **Residuals and Multicollinearity**
 
 **Figure 8** : Histogram of residuals for logarithmic price model
+
 <img width="860" alt="image-15" src="https://github.com/user-attachments/assets/b27cd2e2-9eb1-4aa7-aba6-3139063f0f23" />
 
 **Table 8** : VIF results  for logarithmic price model
+
 <img width="411" alt="image-16" src="https://github.com/user-attachments/assets/93e7eb3d-d855-47a5-ae61-958343164690" />
 
 **Collinearity**
@@ -212,19 +213,15 @@ Final Regression Summary
 
 # Conclusion and Recommendations
 
-</aside>
-💸
 
 Most Expensive City by average price in euro
+
 <img width="566" alt="image-23" src="https://github.com/user-attachments/assets/f80e7a25-3462-4224-95af-83b429303f4a" />
 
-</aside>
-
-💸
 
 Most Affordable City by average price in euro 
 
-</aside>
+
 <img width="603" alt="image-24" src="https://github.com/user-attachments/assets/abb587b9-b950-457e-8f30-3f931edd209e" />
 <img width="512" alt="image-25" src="https://github.com/user-attachments/assets/8ed72e76-86d4-4658-b844-c1a3d2543574" />
 <img width="507" alt="image-26" src="https://github.com/user-attachments/assets/6b287620-fc33-41ca-b1cd-28a77aa8fa32" />
@@ -234,19 +231,15 @@ Most Affordable City by average price in euro
 
 *What factors impact and the most significantly Airbnb listings prices in major European cities ?*
 
-<aside>
-📢
+
 
 Most significant across all cities 
 
-</aside>
 <img width="1314" alt="image" src="https://github.com/user-attachments/assets/7eaf4252-d76d-4ca5-b68e-48d31022ce6a" />
 
 
-<aside>
-📢
 
 Most significants factors in Rome, Barcelona and Lisbon 
 <img width="1292" alt="image-27" src="https://github.com/user-attachments/assets/c715fe7d-2df9-4f6a-ae91-39aefc5bf6b8" />
 
-</aside>
+
