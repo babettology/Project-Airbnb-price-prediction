@@ -229,7 +229,7 @@ Most Affordable City by average price in euro
 
 ### Answering the research question according to our findings
 
-*What factors impact and the most significantly Airbnb listings prices in major European cities ?*
+*What factors impact the most Airbnb listings prices in major European cities ?*
 
 
 
