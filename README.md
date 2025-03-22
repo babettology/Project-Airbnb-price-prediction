@@ -7,7 +7,7 @@ SUMMARY
 
 ⚇ But with a growing popularity, hosts face the challenge of setting competitive prices to attract guests. 
 
-**This project aims to develop a predictive model for Airbnb prices using data analysis techniques.**
+**This project aims to pin point the most impostant factors that drive Airbnb price evolution.**
 
 # Research Question
 
