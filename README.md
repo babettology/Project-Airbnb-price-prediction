@@ -1,5 +1,12 @@
 # Project-Airbnb-price-prediction
-SUMMARY 
+
+---
+
+👩🏼‍💻 **Language :** Stata        
+
+✍🏼 **Methods :** Data Cleaning, Regression Analysis, Model Diagnostics, Visualisations
+
+---
 
 # Project Rationale
 
